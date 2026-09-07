@@ -53,6 +53,54 @@
             //    Console.WriteLine($"Score: {item.Key} => Player: {item.Value}");
             //}
             #endregion
+            #region Exercise 3: Phone Book 
+            //Dictionary<string, string> PhoneBook = new()
+            //{
+            //    ["osama"] = "010205555",
+            //    ["ahmed"] = "011205115",
+            //    ["ziad"] = "012207744",
+            //    ["alaa"] = "013206644",
+            //};
+            //PhoneBook["mohamed"] = "0144578612";
+            //try
+            //{
+            //    PhoneBook.Add("osama", "010205555");
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+
+            //if (PhoneBook.TryAdd("anas", "0154656544"))
+            //{
+            //    Console.WriteLine("Added Succesfully");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Not Added");
+            //}
+
+            //bool exists = PhoneBook.ContainsKey("osos");
+            //Console.WriteLine($"Does \"osos\" exist in phone book? {exists}");
+
+
+
+            //if (PhoneBook.TryGetValue("osos", out string? number))
+            //{
+            //    Console.WriteLine("found");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Not Found Contact With Name \"osos\"");
+            //}
+
+            //Console.WriteLine("Keys (Names):");
+            //Console.WriteLine(string.Join(", ", PhoneBook.Keys));
+
+            //Console.WriteLine("Values (Phone Numbers):");
+            //Console.WriteLine(string.Join(", ", PhoneBook.Values));
+
+            #endregion
         }
     }
 }
