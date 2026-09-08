@@ -101,6 +101,31 @@
             //Console.WriteLine(string.Join(", ", PhoneBook.Values));
 
             #endregion
+            #region Exercise 4: Unique Email Validator 
+            //HashSet<string> Emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+            //{
+            //    "ahmed@test.com",
+            //    "AHMED@test.com",
+            //    "sara@test.com",
+            //    "Sara@Test.Com"
+            //};
+
+            //Console.WriteLine(Emails.Count); // 2 because we ignore the case sensitive so  "ahmed@test.com" = "AHMED@test.com" and ignore the second one , "sara@test.com" = "Sara@Test.Com" the same thing.
+
+
+            //HashSet<int> A = [1, 2, 3, 4, 5];
+            //HashSet<int> B = [4, 5, 6, 7, 8];
+            //A.UnionWith(B);
+            //Console.WriteLine($"A U B => [{string.Join(" , ", A)}]");
+            //A.IntersectWith(B);
+            //Console.WriteLine($"A n B => [{string.Join(" , ", A)}]");
+            //A.ExceptWith(B);
+            //Console.WriteLine($"A - B => [{string.Join(" , ", A)}]");
+            //HashSet<int> C = [1, 2];
+            //Console.WriteLine($"[1,2] is Subset of [1,2,3,4,5] =>  {C.IsSubsetOf(A)}");
+
+
+            #endregion
         }
     }
 }
